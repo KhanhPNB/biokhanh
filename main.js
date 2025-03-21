@@ -184,11 +184,16 @@ const categorys = [
     }
 ]
 
+function closeModal() {
+    document.getElementById("customModal").style.display = "none";
+}
 
+window.onload = function() {
+    document.getElementById("customModal").style.display = "flex";
+};
 document.addEventListener("DOMContentLoaded", function () {
-    if (navigator.userAgent.includes("TikTok")) {
-        alert("Nhấn vào biểu tượng ⋮ hoặc ⬆️, rồi chọn 'Mở trong trình duyệt' để xem tốt nhất!");
-    }
+    
+    
     const listProductContainer = document.getElementById("list-product");
     const dropdowns = [];
     let html = "";
