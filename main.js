@@ -21,7 +21,7 @@ const categorys = [
             {
                 id: 1,
                 name: "Đèn DONUT",
-                linkAFF: "https://s.shopee.vn/7zyiHRTwlL",
+                linkAFF: "https://s.shopee.vn/7APbw4MWIU",
                 imgURL: "./assets/images/danhmuc_2/dendonut.webp"
             },
             {
