@@ -28,7 +28,7 @@ const categorys = [
                 id: 1,
                 name: "Đèn Ngủ Để Bàn",
                 linkAFF: "https://s.shopee.vn/5AeXYsHoF4",
-                imgURL: "./assets/images/danhmuc_2/dengnudeban.webp"
+                imgURL: "./assets/images/danhmuc_2/denngudeban.webp"
             },
             {
                 id: 1,
