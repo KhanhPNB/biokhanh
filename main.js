@@ -186,10 +186,23 @@ const categorys = [
 
 
 document.addEventListener("DOMContentLoaded", function () {
+    var userAgent = navigator.userAgent || navigator.vendor || window.opera;
+    var myWebsite = window.location.href; // Lấy URL hiện tại của trang web
+
+    if (/iPad|iPhone|iPod/.test(userAgent) && !window.MSStream) {
+        // Mở trang web của bạn trên Safari
+        window.open(myWebsite, "_blank");
+    } else if (/android/i.test(userAgent)) {
+        // Mở trang web của bạn trên Chrome Android
+        window.location.href = "intent://" + myWebsite.replace(/^https?:\/\//, "") + 
+                            "#Intent;scheme=https;package=com.android.chrome;end;";
+    } else {
+        // Nếu không phải iOS hoặc Android, mở link trong tab mới
+        window.open(myWebsite, "_blank");
+    }
     const listProductContainer = document.getElementById("list-product");
     const dropdowns = [];
     let html = "";
-
     categorys.forEach(category => {
         dropdowns.push({ button: `btn-dm-${category.id}`, dropdown: `dropdown-dm-${category.id}` });
 
