@@ -239,7 +239,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 </svg>
             </button>
             <div id="dropdown-dm-${category.id}" class="transition-all duration-300 ease-in-out flex flex-col items-center gap-2 w-full" style="max-height: 0; overflow: hidden;">
-                <div class="category-content grid grid-cols-2 sm:grid-cols-2 gap-4 p-4 w-full">
+                <div class="category-content grid grid-cols-2 sm:grid-cols-2 gap-4 pb-4 pt-4 w-full">
         `;
 
         category.products.forEach(product => {
