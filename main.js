@@ -20,6 +20,37 @@ const categorys = [
         products: [
             {
                 id: 1,
+                name: "Đèn DONUT",
+                linkAFF: "https://s.shopee.vn/7zyiHRTwlL",
+                imgURL: "./assets/images/danhmuc_2/dendonut.webp"
+            },
+            {
+                id: 1,
+                name: "Đèn Retro",
+                linkAFF: "https://s.shopee.vn/qVXk7m4vu",
+                imgURL: "./assets/images/danhmuc_2/denretro.webp"
+            },
+            {
+                id: 1,
+                name: "Tủ Đầu giường",
+                linkAFF: "https://s.shopee.vn/5Kxx6KxRVj",
+                imgURL: "./assets/images/danhmuc_2/tudaugiuong.webp"
+            },
+            {
+                id: 1,
+                name: "Đèn Mario",
+                linkAFF: "https://s.shopee.vn/4Alzi5d12o",
+                imgURL: "./assets/images/danhmuc_2/denmario.webp"
+            },
+            
+            {
+                id: 1,
+                name: "Ghế Lười Togo",
+                linkAFF: "https://s.shopee.vn/2LKLWXg7Ws",
+                imgURL: "./assets/images/danhmuc_2/gheluoitogo.webp"
+            },
+            {
+                id: 1,
                 name: "Bể cá mini",
                 linkAFF: "https://s.shopee.vn/9AAZfYXDwC",
                 imgURL: "./assets/images/danhmuc_2/beca.webp"
@@ -215,7 +246,7 @@ document.addEventListener("DOMContentLoaded", function () {
             html += `
                 <a href="${product.linkAFF}" class="w-full">
                     <div class="bg-white rounded-lg shadow-lg overflow-hidden flex flex-col h-full"> 
-                        <img src="${product.imgURL}" alt="${product.name}" class="w-full h-auto object-cover">
+                        <img src="${product.imgURL}" alt="${product.name}" class="w-full h-[226px] object-cover">
                         <div class="p-4 flex flex-col flex-1"> 
                             <h3 class="font-bold text-gray-800 pb-2 text-sm sm:text-base">${product.name}</h3>
                             <div class="mt-auto">
