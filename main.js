@@ -20,6 +20,18 @@ const categorys = [
         products: [
             {
                 id: 1,
+                name: "Cây Giả",
+                linkAFF: "https://s.shopee.vn/9zjnKFUwae",
+                imgURL: "./assets/images/danhmuc_2/caygia.webp"
+            },
+            {
+                id: 1,
+                name: "Đèn Ngủ Để Bàn",
+                linkAFF: "https://s.shopee.vn/5AeXYsHoF4",
+                imgURL: "./assets/images/danhmuc_2/dengnudeban.webp"
+            },
+            {
+                id: 1,
                 name: "Đèn DONUT",
                 linkAFF: "https://s.shopee.vn/7APbw4MWIU",
                 imgURL: "./assets/images/danhmuc_2/dendonut.webp"
