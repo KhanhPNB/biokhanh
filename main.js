@@ -20,6 +20,18 @@ const categorys = [
         products: [
             {
                 id: 1,
+                name: "Đèn Bàn Nhật Bản",
+                linkAFF: "https://s.shopee.vn/2B10KnU6v0",
+                imgURL: "./assets/images/danhmuc_2/denlong.webp"
+            },
+            {
+                id: 1,
+                name: "Bộ 50 Nhãn Dán",
+                linkAFF: "https://s.shopee.vn/3VWNv1H9BC",
+                imgURL: "./assets/images/danhmuc_2/bo50nhandan.webp"
+            },
+            {
+                id: 1,
                 name: "Cây Giả",
                 linkAFF: "https://s.shopee.vn/9zjnKFUwae",
                 imgURL: "./assets/images/danhmuc_2/caygia.webp"
