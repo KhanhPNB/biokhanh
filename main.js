@@ -20,6 +20,12 @@ const categorys = [
         products: [
             {
                 id: 1,
+                name: "Thảm 3D",
+                linkAFF: "https://s.shopee.vn/1B8VxgDoRM",
+                imgURL: "./assets/images/danhmuc_2/tham3d.webp"
+            },
+            {
+                id: 1,
                 name: "Đèn Bàn Nhật Bản",
                 linkAFF: "https://s.shopee.vn/2B10KnU6v0",
                 imgURL: "./assets/images/danhmuc_2/denlong.webp"
