@@ -20,6 +20,12 @@ const categorys = [
         products: [
             {
                 id: 1,
+                name: "Thùng Rác Cute",
+                linkAFF: "https://s.shopee.vn/4L5elOjBbr",
+                imgURL: "./assets/images/danhmuc_2/thungraccute.webp"
+            },
+            {
+                id: 1,
                 name: "Đèn Bàn Màu Xanh",
                 linkAFF: "https://s.shopee.vn/2B13qNaVeO",
                 imgURL: "./assets/images/danhmuc_2/denbanxanh.webp"
