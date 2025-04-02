@@ -20,6 +20,12 @@ const categorys = [
         products: [
             {
                 id: 1,
+                name: "Keycap Cute",
+                linkAFF: "https://s.shopee.vn/4q1zE0S1rv",
+                imgURL: "./assets/images/danhmuc_2/keycapcute.webp"
+            },
+            {
+                id: 1,
                 name: "Thùng Rác Cute",
                 linkAFF: "https://s.shopee.vn/4L5elOjBbr",
                 imgURL: "./assets/images/danhmuc_2/thungraccute.webp"
