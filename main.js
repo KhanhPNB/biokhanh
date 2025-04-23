@@ -20,6 +20,18 @@ const categorys = [
         products: [
             {
                 id: 1,
+                name: "Lọ Căm Hoa",
+                linkAFF: "https://s.shopee.vn/qWOK9bxpf",
+                imgURL: "./assets/images/danhmuc_2/locamhoa.webp"
+            },
+            {
+                id: 1,
+                name: "Kệ Treo Áo",
+                linkAFF: "https://s.shopee.vn/4fidIGt5PP",
+                imgURL: "./assets/images/danhmuc_2/giatreoaoquan.webp"
+            },
+            {
+                id: 1,
                 name: "Đồng Hồ Led",
                 linkAFF: "https://s.shopee.vn/9UnrHcyWYk",
                 imgURL: "./assets/images/danhmuc_2/dongholedone.webp"
